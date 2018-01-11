@@ -7,9 +7,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <title>Expedia Offers</title>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-</head>
 <script>
 $(document).ready(function(){
     $('#dropdownList').on('change', function() {
@@ -25,6 +24,8 @@ $(document).ready(function(){
     });
 });
 </script>
+</head>
+
 <body>
 	<form action="proxy" method="POST">
 		Filter By <select name="FilterList" id='dropdownList'>
