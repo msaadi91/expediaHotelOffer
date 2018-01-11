@@ -7,9 +7,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Expedia Offers</title>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<title>Training application</title>
 </head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
 <script>
 $(document).ready(function(){
     $('#dropdownList').on('change', function() {
